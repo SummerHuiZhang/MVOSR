@@ -28,5 +28,3 @@ this is a scale recoery for a simple monocular VO, the accuracy is degraded. Cur
 4. depth and reconstruct
 ![triangles](result/depth.png)
 ![triangles_o](result/pcl.png)
-
-# MVOSR
