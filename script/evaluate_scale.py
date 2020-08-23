@@ -16,7 +16,7 @@ def evaluate(vis=True):
     gt = np.loadtxt(sys.argv[1]) # ground truth
     re = np.loadtxt(sys.argv[2]) # result
     evaluate_scale(gt,re)
-def patch(data,window=10,step=2):
+def patch(data,window=6,step=2):    #change window size from 10 to 6
     data_new = []
     for i in range(0,data.shape[0]-window,step):
         data_new.append(np.sum(data[i:i+window]))
