@@ -1,6 +1,7 @@
 # MVOScaleRecovery
-Recover the scale of monocular visual odometry
-MVOSR is the code for the journal version that add more road point selection methods and [MVOScaleRecovery](https://github.com/SummerHuiZhang/MVOScaleRecovery) is for conference version.
+Recover the scale of monocular visual odometry.
+
+MVOSR is the code for the journal version that add more road point selection methods and [MVOScaleRecovery](https://github.com/SummerHuiZhang/MVOScaleRecovery) is the code for conference version.
 
 # RUN
 1. save your image name in path\_to\_image\_list by `find path/| sort >path_to_image_list`
